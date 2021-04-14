@@ -1,0 +1,36 @@
+/* wider leaderboards */
+@media (max-width: 999999999px) {
+
+    .container {
+        max-width: 100% !important;
+    }
+    
+    maincontent{
+        overflow-x: visible !important;
+    }
+    
+    body.dark .reverse-padding
+    {
+    background: rgba(0, 0, 0, 0.7);
+    }
+
+    body.dark .panel
+    {
+        background: transparent;
+        overflow-x: visible !important;
+    }
+    #sidebar
+    {
+        background: rgba(0, 0, 0, 0.7);
+    }
+    body.dark .panel.panel-tabbed
+    {
+        background: rgba(0, 0, 0, 0.7);
+    }
+   body.dark .old-leaderboard
+    {
+        max-width: 100%;
+    }
+    
+    
+}
